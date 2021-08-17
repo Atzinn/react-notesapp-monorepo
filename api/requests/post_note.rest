@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMGY0MTU0MWUyYzhiYTMyNTNiMGNjZiIsInVzZXJuYW1lIjoiYXR6aW5uMyIsImlhdCI6MTYyODQzNTY3NCwiZXhwIjoxNjI5MDQwNDc0fQ.YlmR4TPNisFlp8OS-6OmopTN-ZC120Zl-PF7Hy_SI-Y
+
+{
+  "content": "nota nueva con jwt y middleware userExtractor",
+  "important": true
+}
